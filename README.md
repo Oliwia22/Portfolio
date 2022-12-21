@@ -1,1 +1,25 @@
 # Projet 1 : boissons caféinées
+
+J’ai réalisé ce projet à l’aide d’excel, à partir d’une base de donnée publique provenant du site Kaggle [https://www.kaggle.com/datasets/heitornunes/caffeine-content-of-drinks](https://www.kaggle.com/datasets/heitornunes/caffeine-content-of-drinks).
+
+Le projet ayant pour but d’analyser le contenu de caféine dans différents types de boissons.
+
+La base de données contient 610 lignes et 5 colonnes, drink (le nom de la boisson), volume (en ml), calories, caffeine (en mg) et type (la catégorie de la boisson). 
+
+J’ai vérifié s’il n’y avait pas de duplicat, de fautes d’orthographe, espaces vides ou valeurs manquantes, rien de tout celà, la base de donnée est propre et prête à être analysée.
+
+A l’aide d’un tableau croisé dynamique, j’ai pu obtenir le nombre de boissons par catégorie et la quantité de caféine et de calories par type de boissons. J’ai aussi calculé le pourcentage de boissons ayant 0 calories, les top 10 boissons les plus riches en caféine et enfin regardé s’il y avait une corrélation entre la caféine et les calories.
+
+Ensuite j’ai visualiser ces résultats avec différents graphiques et  j’ai pu créer un dashboard.
+
+[boissons caféine - Dashboard (2).pdf](https://github.com/Oliwia22/Portfolio/files/10277936/boissons.cafeine.-.Dashboard.2.pdf)
+
+Nous pouvons voir ici que le café est la boisson la plus riche en calories,
+
+les 10 boissons les plus riches en caféine sont toutes des cafés.
+
+33% des boissons sont des boissons 0 calories.
+
+On peut voir que les soft drinks sont les boissons les plus faibles en caféine, il existe aussi des boissons sans caféine pour chaque type de boissons sauf les energy shots.
+
+Finalement on peut voir que la plupart des boissons vont jusqu’à 200 calories et contiennent moins de 500 mg de caféine, la boisson la plus calorique (830kcal) contient seulement 12mg de caféine et la boisson la plus riche en caféine (1555mg) est une boisson 0kcal.
